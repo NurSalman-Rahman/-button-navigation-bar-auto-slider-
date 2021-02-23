@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".ui.home.HomeFragment">
+
+
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+
+        <LinearLayout
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/sliderLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                card_view:auto_cycle="true"
+                card_view:delay="3">
+
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="-50dp"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="50dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <LinearLayout
+
+                        android:id="@+id/search_layout"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="64dp"
+
+
+                            android:layout_gravity="center"
+
+                            android:padding="5dp"
+                            android:src="@drawable/search_icon">
+
+                        </ImageView>
+
+                        <TextView
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="5dp"
+                            android:singleLine="true"
+                            android:text="Search"
+                            android:textAlignment="center">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#158744">
+
+                    </View>
+
+                    <LinearLayout
+                        android:id="@+id/drug_byIndicationLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="64dp"
+                            android:layout_gravity="center"
+
+                            android:padding="5dp"
+                            android:src="@drawable/drugbyindicator">
+
+                        </ImageView>
+
+                        <TextView
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="5dp"
+                            android:singleLine="true"
+                            android:text="Drug by Indication"
+                            android:textAlignment="center">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#158744">
+
+                    </View>
+
+                    <LinearLayout
+                        android:id="@+id/my_visitingCardLayout"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+
+                            android:layout_height="64dp"
+                            android:layout_gravity="center"
+
+                            android:padding="5dp"
+                            android:src="@drawable/myvisitingcard">
+
+                        </ImageView>
+
+                        <TextView
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="5dp"
+                            android:singleLine="true"
+                            android:text="My Visiting Card"
+                            android:textAlignment="center">
+
+
+                        </TextView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#158744">
+
+                </View>
+
+
+                <LinearLayout
+
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <LinearLayout
+                        android:id="@+id/drug_byClassLayout"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+
+
+                            android:layout_gravity="center"
+
+                            android:padding="5dp"
+                            android:src="@drawable/drugbyclass">
+
+                        </ImageView>
+
+                        <TextView
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="5dp"
+                            android:singleLine="true"
+                            android:text="Drug By Class">
+
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#158744">
+
+                    </View>
+
+                    <LinearLayout
+                        android:id="@+id/historyLayout"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+
+                            android:layout_width="80dp"
+                            android:layout_height="93dp"
+                            android:layout_gravity="center"
+
+                            android:padding="5dp"
+                            android:src="@drawable/history">
+
+                        </ImageView>
+
+                        <TextView
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="5dp"
+                            android:singleLine="true"
+                            android:text="History"
+                            android:textAlignment="center">
+
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#158744">
+
+                    </View>
+
+                    <LinearLayout
+                        android:id="@+id/drug_byGenericLayout"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+                            android:layout_width="80dp"
+
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:padding="5dp"
+                            android:src="@drawable/drugbygeneric">
+
+                        </ImageView>
+
+                        <TextView
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="5dp"
+                            android:singleLine="true"
+                            android:text="Drug by Generic"
+                            android:textAlignment="center">
+
+
+                        </TextView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#158744">
+
+                </View>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <LinearLayout
+                        android:id="@+id/add_drugLayout"
+
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+
+
+                            android:layout_gravity="center"
+
+                            android:padding="5dp"
+                            android:src="@drawable/adddrug">
+
+                        </ImageView>
+
+                        <TextView
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:singleLine="true"
+                            android:text="Add Drug"
+                            android:textAlignment="center">
+
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#158744">
+
+                    </View>
+
+                    <LinearLayout
+                        android:id="@+id/prescriptionLayout"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="77dp"
+
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:padding="5dp"
+                            android:src="@drawable/prescription">
+
+                        </ImageView>
+
+                        <TextView
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:singleLine="true"
+                            android:text="Prescription"
+                            android:textAlignment="center">
+
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#158744">
+
+                    </View>
+
+                    <LinearLayout
+                        android:id="@+id/jobLayout"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:padding="5dp"
+                            android:src="@drawable/job">
+
+                        </ImageView>
+
+                        <TextView
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:singleLine="true"
+                            android:text="Job"
+                            android:textAlignment="center">
+
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>

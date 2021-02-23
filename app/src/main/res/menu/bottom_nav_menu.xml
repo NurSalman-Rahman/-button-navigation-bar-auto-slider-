@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_notifications" />-->
+
+
+
+
+    <item
+        android:id="@+id/home1"
+        android:icon="@drawable/homeiconfi"
+        android:title="Home"
+        app:cnb_backgroundColor="@color/teal_200"
+        app:cnb_iconColor="#FFAA00FF"
+        app:cnb_textColor="#D50E0E" />
+
+
+
+
+    <item
+        android:id="@+id/Favorite_Drug"
+        android:icon="@drawable/faviconfi"
+        android:title="Favorite Drug"
+        app:cnb_backgroundColor="@color/teal_200"
+        app:cnb_iconColor="#FFAA00FF"
+        app:cnb_textColor="#D50E0E" />
+
+
+    <item
+        android:id="@+id/Inbox"
+        android:icon="@drawable/emailfi"
+        android:title="Inbox"
+        app:cnb_backgroundColor="@color/teal_200"
+        app:cnb_iconColor="#FFAA00FF"
+        app:cnb_textColor="#D50E0E" />
+
+    <item
+        android:id="@+id/Store"
+        android:icon="@drawable/storefi"
+        android:title="Store"
+        app:cnb_backgroundColor="@color/teal_200"
+        app:cnb_iconColor="#FFAA00FF"
+        app:cnb_textColor="#D50E0E "/>
+
+
+</menu>
