@@ -23,6 +23,9 @@ public class StoreFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_store, container, false);
 
 
+
+
         return root;
+
     }
 }

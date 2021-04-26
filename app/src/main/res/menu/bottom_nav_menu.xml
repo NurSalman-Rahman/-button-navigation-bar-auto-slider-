@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <!--<item
@@ -39,7 +41,13 @@
         app:cnb_iconColor="#FFAA00FF"
         app:cnb_textColor="#D50E0E" />
 
-
+    <item
+        android:id="@+id/Call"
+        android:icon="@drawable/callfi"
+        android:title="Call"
+        app:cnb_backgroundColor="@color/teal_200"
+        app:cnb_iconColor="#FFAA00FF"
+        app:cnb_textColor="#D50E0E "/>
     <item
         android:id="@+id/Inbox"
         android:icon="@drawable/emailfi"
@@ -55,6 +63,9 @@
         app:cnb_backgroundColor="@color/teal_200"
         app:cnb_iconColor="#FFAA00FF"
         app:cnb_textColor="#D50E0E "/>
+
+
+
 
 
 </menu>

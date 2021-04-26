@@ -22,6 +22,7 @@ public class FavoriteFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         favoriteViewModel = new ViewModelProvider(this).get(FavoriteViewModel.class);
         View root = inflater.inflate(R.layout.fragment_favorite, container, false);
+
         return root;
     }
 }
